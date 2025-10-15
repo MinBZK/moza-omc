@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\Moza.Omc.Api\Moza.Omc.Api.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>
