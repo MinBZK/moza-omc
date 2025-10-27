@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  moza-omc-db:
+    image: postgres:17.5
+    container_name: moza-omc-db
+    environment:
+      - POSTGRES_USER=omc
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=omcdb
+    volumes:
+      - ./.containers/moza-omc-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
